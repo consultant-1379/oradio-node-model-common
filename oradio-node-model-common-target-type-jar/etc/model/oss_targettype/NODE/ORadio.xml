@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- *******************************************************************************
+     * COPYRIGHT Ericsson 2024. All rights reserved.
+     *
+     * No part of this document may be reproduced in any form without the
+     * written permission of the copyright owner.The contents of this document
+     * are subject to revision without notice due to continued progress in
+     * methodology, design and manufacturing. Ericsson shall have no liability
+     * for any error or damage of any kind resulting from the use of this document.
+     ******************************************************************************* -->
+
+<TargetTypeInformation oc:ns="NODE" oc:name="ORadio"
+                       xmlns:oc="urn:com:ericsson:schema:xml:oss:oss_common"
+                       xmlns="urn:com:ericsson:schema:xml:oss:oss_targettype"
+>
+
+    <oc:modelCreationInfo author="Boru" creationDate="25-01-2024">
+        <oc:designedModel componentId="oradio-node-model-common-target-type-jar"/>
+    </oc:modelCreationInfo>
+
+    <oc:desc>This is the target type information model for Network Element type ORadio.</oc:desc>
+
+    <hasTargetVersionSpecificExtensions>true</hasTargetVersionSpecificExtensions>
+
+    <rootMoType namespace="OSS_TOP" name="MeContext"/>
+    <ciMoType namespace="ORADIO_MED" name="ORadioConnectivityInformation"/>
+
+</TargetTypeInformation>
